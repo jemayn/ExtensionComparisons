@@ -4,10 +4,10 @@ import { defineConfig } from "vite";
 export default defineConfig({
     build: {
         lib: {
-            entry: "src/my-dashboard.ts", // your web component source file
+            entry: "src/register-dashboard.ts", // your web component source file
             formats: ["es"],
         },
-        outDir: "../wwwroot/Dashboard", // all compiled files will be placed here
+        outDir: "../wwwroot/RegisterDashboard", // all compiled files will be placed here
         emptyOutDir: true,
         sourcemap: true,
         rollupOptions: {

@@ -11,9 +11,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Dashboard\" />
-      <Folder Include="Dashboard\src\assets\" />
-      <Folder Include="wwwroot\Dashboard\" />
+      <Folder Include="RegisterDashboard\" />
+      <Folder Include="RegisterDashboard\src\assets\" />
     </ItemGroup>
 
     <ItemGroup>

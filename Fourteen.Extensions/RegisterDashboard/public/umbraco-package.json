@@ -1,0 +1,19 @@
+
+{
+    "$schema": "../../../Fourteen.Web/umbraco-package-schema.json",
+    "name": "Register Dashboard",
+    "version": "0.1.0",
+    "extensions": [
+        {
+            "type": "dashboard",
+            "alias": "Register.Dashboard.MyExtension",
+            "name": "Register Dashboard",
+            "element": "/App_Plugins/RegisterDashboard/dashboard.js",
+            "elementName": "register-dashboard",
+            "meta": {
+                "label": "Register Dashboard",
+                "pathname": "register-dashboard"
+            }
+        }
+    ]
+}
