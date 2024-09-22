@@ -1,0 +1,13 @@
+﻿{
+    "dashboards":  [
+        {
+            "alias": "listviewDashboard",
+            "view":  "/App_Plugins/ListviewDashboard/index.html",
+            "sections":  [ "content" ],
+            "weight": -10
+        }
+    ],
+    javascript: [
+        "~/App_Plugins/ListviewDashboard/listviewDashboard.controller.js",
+    ]
+}

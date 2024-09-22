@@ -1,7 +1,7 @@
 ﻿{
     "dashboards":  [
         {
-            "alias": "welcomeDashboard",
+            "alias": "registerDashboard",
             "view":  "/App_Plugins/RegisterDashboard/index.html",
             "sections":  [ "content" ],
             "weight": -10

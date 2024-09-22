@@ -1,0 +1,16 @@
+﻿<div ng-controller="ListviewDashboard.Controller as vm">
+
+    <umb-table
+            items="vm.items"
+            item-properties="vm.options.includeProperties"
+            allow-select-all="false"
+            on-select="vm.selectItem(item, $index, $event)"
+            on-click="vm.clickItem(item)"
+            on-select-all=""
+            on-selected-all=""
+            on-sorting-direction="vm.isSortDirection(col, direction)"
+            on-sort="vm.sort(field, true)"
+    >
+    </umb-table>
+
+</div>
