@@ -19,6 +19,10 @@
     <ProjectReference Include="..\Fourteen.Extensions\Fourteen.Extensions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="App_Plugins\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <!-- Razor files are needed for the backoffice to work correctly -->
     <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>

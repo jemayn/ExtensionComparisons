@@ -1,0 +1,19 @@
+
+{
+    "$schema": "../../../Fourteen.Web/umbraco-package-schema.json",
+    "name": "Listview Dashboard",
+    "version": "0.1.0",
+    "extensions": [
+        {
+            "type": "dashboard",
+            "alias": "Listview.Dashboard.MyExtension",
+            "name": "Listview Dashboard",
+            "element": "/App_Plugins/ListviewDashboard/listviewdashboard.js",
+            "elementName": "listview-dashboard",
+            "meta": {
+                "label": "Listview Dashboard",
+                "pathname": "listview-dashboard"
+            }
+        }
+    ]
+}

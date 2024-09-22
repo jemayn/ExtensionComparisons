@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="ListviewDashboard\" />
+      <Folder Include="ListviewDashboard\src\assets\" />
       <Folder Include="RegisterDashboard\" />
       <Folder Include="RegisterDashboard\src\assets\" />
     </ItemGroup>
