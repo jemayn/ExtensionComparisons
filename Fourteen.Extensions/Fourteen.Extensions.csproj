@@ -8,9 +8,13 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.6" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.7.1" />
+        <PackageReference Include="Umbraco.Cms.Api.Management" Version="14.2.0" />
+        <PackageReference Include="Umbraco.Cms.Web.Common" Version="14.2.0" />
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="ExternalDataDashboard\src\assets\" />
       <Folder Include="ListviewDashboard\src\assets\" />
       <Folder Include="RegisterDashboard\" />
       <Folder Include="RegisterDashboard\src\assets\" />
@@ -20,6 +24,12 @@
       <_ContentIncludedByDefault Remove="wwwroot\Dashboard2\dashboard.js" />
       <_ContentIncludedByDefault Remove="wwwroot\Dashboard2\dashboard.js.map" />
       <_ContentIncludedByDefault Remove="wwwroot\Dashboard2\umbraco-package.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+        <HintPath>..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.11\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
     <PropertyGroup>

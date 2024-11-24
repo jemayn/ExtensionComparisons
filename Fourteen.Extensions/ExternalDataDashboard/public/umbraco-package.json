@@ -1,0 +1,14 @@
+
+{
+    "$schema": "../../../Fourteen.Web/umbraco-package-schema.json",
+    "name": "External data Dashboard",
+    "version": "0.1.0",
+    "extensions": [        
+        {
+            "type": "entryPoint",
+            "alias": "ExternalData.EntryPoint.MyExtension",
+            "name": "External Data Entry Point",
+            "js": "/App_Plugins/ExternalDataDashboard/externaldatadashboard.js"
+        }
+    ]
+}
