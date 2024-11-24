@@ -1,0 +1,13 @@
+﻿{
+    "dashboards":  [
+        {
+            "alias": "externaldatadashboard",
+            "view":  "/App_Plugins/ExternalDataDashboard/index.html",
+            "sections":  [ "content" ],
+            "weight": -10
+        }
+    ],
+    "javascript": [
+        "~/App_Plugins/ExternalDataDashboard/externalDataDashboard.controller.js"
+    ]
+}

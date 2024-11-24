@@ -7,7 +7,7 @@
             "weight": -10
         }
     ],
-    javascript: [
-        "~/App_Plugins/ListviewDashboard/listviewDashboard.controller.js",
+    "javascript": [
+        "~/App_Plugins/ListviewDashboard/listviewDashboard.controller.js"
     ]
 }

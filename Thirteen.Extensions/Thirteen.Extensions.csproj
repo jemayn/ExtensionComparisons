@@ -8,6 +8,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.6" />
+        <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.5.1" />
     </ItemGroup>
 
     <PropertyGroup>
